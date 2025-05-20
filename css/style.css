@@ -1,0 +1,36 @@
+/*---------customização do corpo da página----------*/
+body {
+    margin: 0; /*retirar as margens da página*/
+    font-family: sans-serif;  
+}
+
+/*---------customização do cabeçalho da página------------*/
+header {
+    display: flex;
+    justify-content: space-between; /*adiciona um espaço entre o logo e os botões da navbar*/
+    align-items: center; /*faz o alinhamento dos itens na horizontal no centro da navbar*/
+    padding: 10px 60px 10px 20px; /*borda dos itens dentro do padding no sentido horário*/
+    background-color: black;
+}
+
+/*----------customização do logo na navbar da página-----------*/
+.logoNav {
+    width: 250px; /*define o tamanho do logo*/
+}
+
+/*----------customização dos botões na navbar da página-----------*/
+.menuNav {
+    list-style: none; /*desabilita o estilo de lista*/
+    display: flex; 
+    gap: 30px; /*espaçamento entre os botões da navbar*/
+}
+
+.menuNav a {
+    text-decoration: none; /*desabilita o estilo de "hiperlink" dos botões*/
+    color: white;
+    font-weight: bold;
+}
+
+.menuNav li a:hover {
+    color: maroon;
+}
