@@ -1,10 +1,10 @@
-/*---------customização do corpo da página----------*/
+/*---------CUSTOMIZAÇÃO DO CORPO DA PÁGINA----------*/
 body {
     margin: 0; /*retirar as margens da página*/
     font-family: sans-serif;  
 }
 
-/*---------customização do cabeçalho da página------------*/
+/*-----------------CUSTOMIZAÇÃO DO CABEÇALHO-------------------*/
 header {
     display: flex;
     justify-content: space-between; /*adiciona um espaço entre o logo e os botões da navbar*/
@@ -13,12 +13,12 @@ header {
     background-color: black;
 }
 
-/*----------customização do logo na navbar da página-----------*/
+/*----------------CUSTOMIZAÇÃO DO LOGO DA NAVBAR--------------------*/
 .logoNav {
     width: 250px; /*define o tamanho do logo*/
 }
 
-/*----------customização dos botões na navbar da página-----------*/
+/*----------CUSTOMIZAÇÃO DOS BOTÕES DA NAVBAR-----------*/
 .menuNav {
     list-style: none; /*desabilita o estilo de lista*/
     display: flex; 
@@ -32,5 +32,18 @@ header {
 }
 
 .menuNav li a:hover {
-    color: maroon;
+    color: #F20000;
+}
+
+/*----------------CUSTOMIZAÇÃO DO BANNER ANIMADO-------------------*/
+.banner {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 80px 0px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
 }
